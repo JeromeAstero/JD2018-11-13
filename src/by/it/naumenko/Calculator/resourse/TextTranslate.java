@@ -2,8 +2,10 @@ package by.it.naumenko.Calculator.resourse;
 
 public class TextTranslate {
 
+
     private TextTranslate(){}
 
+    public static final String LOCALE ="locale" ;
     public static final String THIS_CLASS="thisClass";
     public static final String IMPOSSIBLE="impossible";
     public static final String ADDITION="addition";
