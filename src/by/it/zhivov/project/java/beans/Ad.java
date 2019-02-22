@@ -1,6 +1,7 @@
 package by.it.zhivov.project.java.beans;
 
 public class Ad {
+
     private long id;
     private String title;
     private String description;
