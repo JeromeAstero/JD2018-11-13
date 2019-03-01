@@ -14,8 +14,8 @@ public class Vali {
     public static void main(String[] args) {
         String schemaNsUri = XMLConstants.W3C_XML_SCHEMA_NS_URI;
         SchemaFactory schemaFactory = SchemaFactory.newInstance(schemaNsUri);
-        String xsd = System.getProperty("user.dir") + "/src/by/it/mnovikov/jd02_07/organization.xsd";
-        String xml = System.getProperty("user.dir") + "/src/by/it/mnovikov/jd02_07/organization+xsd.xml";
+        String xsd = System.getProperty("user.dir") + "/src/by/it/mnovikov/jd02_07_xml_xsd_dtd/organization.xsd";
+        String xml = System.getProperty("user.dir") + "/src/by/it/mnovikov/jd02_07_xml_xsd_dtd/organization+xsd.xml";
 
         try {
             Schema schema = schemaFactory.newSchema(new File(xsd));

@@ -11,7 +11,7 @@ public class ExampleStAX {
     private static String tab = "";
     public static void main(String[] args) {
         try {
-            String fileName = "src/by/it/nickgrudnitsky/jd02_07/twitch+xsd.xml";
+            String fileName = "src/by/it/nickgrudnitsky/jd02_07_xml_xsd_dtd/twitch+xsd.xml";
             FileInputStream inputStream = new FileInputStream(fileName);
             XMLInputFactory inputFactory = XMLInputFactory.newInstance();
             XMLStreamReader streamReader = inputFactory.createXMLStreamReader(inputStream);

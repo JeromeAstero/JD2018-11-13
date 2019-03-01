@@ -16,8 +16,8 @@ public class XMLValidator {
         SchemaFactory factory = SchemaFactory.newInstance(schemaNsUri);
         String xsd=Util.getPath()+"buyers.xsd";
         String xml=Util.getPath()+"buyers+xsd.xml";
-      //String xsd=System.getProperty("user.dir")+"/src/by/it/skarpovich/jd02_07/buyers.xsd";
-      //String xml=System.getProperty("user.dir")+"/src/by/it/skarpovich/jd02_07/buyers+xsd.xml";
+      //String xsd=System.getProperty("user.dir")+"/src/by/it/skarpovich/jd02_07_xml_xsd_dtd/buyers.xsd";
+      //String xml=System.getProperty("user.dir")+"/src/by/it/skarpovich/jd02_07_xml_xsd_dtd/buyers+xsd.xml";
         try {
             Schema schema = factory.newSchema(new File(xsd));
             Validator validator = schema.newValidator();

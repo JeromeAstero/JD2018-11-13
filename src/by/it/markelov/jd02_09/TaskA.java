@@ -12,7 +12,7 @@ import javax.xml.bind.Unmarshaller;
 import java.io.File;
 
 public class TaskA {
-    private static File fileXML=new File("D:\\Мои программы\\Java\\JD2018-11-13\\src\\by\\it\\markelov\\jd02_07\\clients.xml");
+    private static File fileXML=new File("D:\\Мои программы\\Java\\JD2018-11-13\\src\\by\\it\\markelov\\jd02_07_xml_xsd_dtd\\clients.xml");
 
     public static void main(String[] args) {
 

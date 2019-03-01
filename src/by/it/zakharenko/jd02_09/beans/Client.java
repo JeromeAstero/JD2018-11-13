@@ -28,7 +28,7 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="login" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *         &lt;element name="password" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *         &lt;element name="phone_number" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *         &lt;element name="orders" type="{D:\JD2018-11-13\src\by\it\zakharenko\jd02_07\clients.xml}Orders"/>
+ *         &lt;element name="orders" type="{D:\JD2018-11-13\src\by\it\zakharenko\jd02_07_xml_xsd_dtd\clients.xml}Orders"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>

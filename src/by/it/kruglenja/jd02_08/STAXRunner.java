@@ -9,7 +9,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
 public class STAXRunner {
-    private static String xml = System.getProperty("user.dir") + "\\src\\by\\it\\kruglenja\\jd02_07\\spareparts\\spareparts.xml";
+    private static String xml = System.getProperty("user.dir") + "\\src\\by\\it\\kruglenja\\jd02_07_xml_xsd_dtd\\spareparts\\spareparts.xml";
 
     public static void main(String[] args) {
         String tab = "";

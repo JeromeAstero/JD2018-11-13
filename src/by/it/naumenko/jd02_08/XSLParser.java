@@ -11,7 +11,7 @@ public class XSLParser {
     final static String root="src/by/it/naumenko";
 
     public static void main(String[] args) {
-        String xmlFile=root+"jd02_07/saleOfCakes.xml";
+        String xmlFile=root+"jd02_07_xml_xsd_dtd/saleOfCakes.xml";
         String htmlFile=root+"jd02_08/saleOfCakes.html";
 
         try {

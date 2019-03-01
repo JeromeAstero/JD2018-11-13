@@ -10,7 +10,7 @@ import java.util.Arrays;
 
 public class StAXRunner {
 
-    private static String xml = System.getProperty("user.dir") + "/src/by/it/kovalyova/jd02_07/flat.xml";
+    private static String xml = System.getProperty("user.dir") + "/src/by/it/kovalyova/jd02_07_xml_xsd_dtd/flat.xml";
 
     private static void writeHtml(ArrayList<String> rows) {
         try {

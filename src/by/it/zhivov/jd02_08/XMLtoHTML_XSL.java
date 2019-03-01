@@ -8,7 +8,7 @@ import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
 public class XMLtoHTML_XSL {
-    private final static String root = "src/by/it/zhivov/jd02_07/";
+    private final static String root = "src/by/it/zhivov/jd02_07_xml_xsd_dtd/";
 
     static void xmlToHtml(String fileXML, String fileHTML, String fileXSL) {
         StreamSource fileXml = new StreamSource(fileXML);

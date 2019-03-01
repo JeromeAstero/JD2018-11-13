@@ -23,7 +23,7 @@ import java.util.List;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="client" type="{D:\JD2018-11-13\src\by\it\zakharenko\jd02_07\clients.xml}client" maxOccurs="unbounded"/>
+ *         &lt;element name="client" type="{D:\JD2018-11-13\src\by\it\zakharenko\jd02_07_xml_xsd_dtd\clients.xml}client" maxOccurs="unbounded"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>

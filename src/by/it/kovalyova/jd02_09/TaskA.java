@@ -1,6 +1,6 @@
 package by.it.kovalyova.jd02_09;
 /*
-import by.it.kovalyova.jd02_07.FlatValidator;
+import by.it.kovalyova.jd02_07_xml_xsd_dtd.FlatValidator;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 

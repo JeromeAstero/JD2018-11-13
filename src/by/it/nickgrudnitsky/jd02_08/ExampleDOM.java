@@ -11,7 +11,7 @@ public class ExampleDOM {
 
     public static void main(String[] args) {
         try {
-            String fileName = "src/by/it/nickgrudnitsky/jd02_07/twitch+xsd.xml";
+            String fileName = "src/by/it/nickgrudnitsky/jd02_07_xml_xsd_dtd/twitch+xsd.xml";
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document document = builder.parse(fileName);

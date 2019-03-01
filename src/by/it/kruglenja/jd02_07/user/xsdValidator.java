@@ -14,8 +14,8 @@ public class xsdValidator {
     public static void main(String[] args) {
         String schemNsUri = XMLConstants.W3C_XML_SCHEMA_NS_URI;
         SchemaFactory factory = SchemaFactory.newInstance(schemNsUri);
-        String xsd = System.getProperty("user.dir") + "\\src\\by\\it\\kruglenja\\jd02_07\\user\\loginForm.xsd";
-        String xml = System.getProperty("user.dir") + "\\src\\by\\it\\kruglenja\\jd02_07\\user\\loginForm+xsd.xml";
+        String xsd = System.getProperty("user.dir") + "\\src\\by\\it\\kruglenja\\jd02_07_xml_xsd_dtd\\user\\loginForm.xsd";
+        String xml = System.getProperty("user.dir") + "\\src\\by\\it\\kruglenja\\jd02_07_xml_xsd_dtd\\user\\loginForm+xsd.xml";
         Schema schema;
 
         {

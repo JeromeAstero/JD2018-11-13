@@ -17,8 +17,8 @@ public class PersonValidator {
     public static void main(String[] args) {
         String schemaNsUri = XMLConstants.W3C_XML_SCHEMA_NS_URI;
         SchemaFactory factory = SchemaFactory.newInstance(schemaNsUri);
-        String xsd=System.getProperty("user.dir")+"/src/by/it/denisova/jd02_07/english.xsd";
-        String xml=System.getProperty("user.dir")+"/src/by/it/denisova/jd02_07/english+xsd.xml";
+        String xsd=System.getProperty("user.dir")+"/src/by/it/denisova/jd02_07_xml_xsd_dtd/english.xsd";
+        String xml=System.getProperty("user.dir")+"/src/by/it/denisova/jd02_07_xml_xsd_dtd/english+xsd.xml";
         try {
             Schema sc = factory.newSchema(new File(xsd));
             Validator val = sc.newValidator();

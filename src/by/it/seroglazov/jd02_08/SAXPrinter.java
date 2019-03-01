@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class SAXPrinter extends DefaultHandler {
     public static void main(String[] args) {
-        String parentDir = System.getProperty("user.dir") + "/src/by/it/seroglazov/jd02_07/";
+        String parentDir = System.getProperty("user.dir") + "/src/by/it/seroglazov/jd02_07_xml_xsd_dtd/";
         String myIngredientsFile = parentDir + "ingredients/ingredients+xsd.xml";
         String myRecipesFile = parentDir + "recipes/recipes+xsd.xml";
         String myUsersFile = parentDir + "users/users+xsd.xml";

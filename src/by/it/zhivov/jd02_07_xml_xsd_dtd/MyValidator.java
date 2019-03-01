@@ -1,4 +1,4 @@
-package by.it.zhivov.jd02_07;
+package by.it.zhivov.jd02_07_xml_xsd_dtd;
 
 import org.xml.sax.SAXException;
 
@@ -12,8 +12,8 @@ import java.io.IOException;
 
 public class MyValidator {
     public static void main(String[] args) {
-        String xsd = System.getProperty("user.dir")+"/src/by/it/zhivov/jd02_07/person.xsd";
-        String xml = System.getProperty("user.dir")+"/src/by/it/zhivov/jd02_07/person+xsd.xml";
+        String xsd = System.getProperty("user.dir")+"/src/by/it/zhivov/jd02_07_xml_xsd_dtd/person.xsd";
+        String xml = System.getProperty("user.dir")+"/src/by/it/zhivov/jd02_07_xml_xsd_dtd/person+xsd.xml";
         valid(xml,xsd);
     }
     static void valid(String xml, String xsd){

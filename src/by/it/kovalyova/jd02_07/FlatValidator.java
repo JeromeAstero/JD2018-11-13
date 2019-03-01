@@ -17,8 +17,8 @@ public class FlatValidator {
     public static void main(String[] args) {
         String schemaNsUri = XMLConstants.W3C_XML_SCHEMA_NS_URI;
         SchemaFactory factory = SchemaFactory.newInstance(schemaNsUri);
-        String xsd=System.getProperty("user.dir")+"/src/by/it/kovalyova/jd02_07/flat.xsd";
-        String xml=System.getProperty("user.dir")+"/src/by/it/kovalyova/jd02_07/flat.xml";
+        String xsd=System.getProperty("user.dir")+"/src/by/it/kovalyova/jd02_07_xml_xsd_dtd/flat.xsd";
+        String xml=System.getProperty("user.dir")+"/src/by/it/kovalyova/jd02_07_xml_xsd_dtd/flat.xml";
         try {
             Schema schema = factory.newSchema(new File(xsd));
             Validator validator = schema.newValidator();

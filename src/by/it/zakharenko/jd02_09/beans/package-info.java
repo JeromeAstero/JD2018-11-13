@@ -5,5 +5,5 @@
 // Generated on: 2019.02.03 at 07:48:12 PM MSK 
 //
 
-@javax.xml.bind.annotation.XmlSchema(namespace = "D:\\JD2018-11-13\\src\\by\\it\\zakharenko\\jd02_07\\clients.xml", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
+@javax.xml.bind.annotation.XmlSchema(namespace = "D:\\JD2018-11-13\\src\\by\\it\\zakharenko\\jd02_07_xml_xsd_dtd\\clients.xml", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
 package by.it.zakharenko.jd02_09.beans;

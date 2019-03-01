@@ -14,8 +14,8 @@ public class TwitchValidator {
     public static void main(String[] args) {
         String schemaNsUri = XMLConstants.W3C_XML_SCHEMA_NS_URI;
         SchemaFactory factory = SchemaFactory.newInstance(schemaNsUri);
-        String xsd = System.getProperty("user.dir") + "/src/by/it/nickgrudnitsky/jd02_07/twitch.xsd";
-        String xml = System.getProperty("user.dir") + "/src/by/it/nickgrudnitsky/jd02_07/twitch+xsd.xml";
+        String xsd = System.getProperty("user.dir") + "/src/by/it/nickgrudnitsky/jd02_07_xml_xsd_dtd/twitch.xsd";
+        String xml = System.getProperty("user.dir") + "/src/by/it/nickgrudnitsky/jd02_07_xml_xsd_dtd/twitch+xsd.xml";
         try {
             Schema schema = factory.newSchema(new File(xsd));
             Validator validator = schema.newValidator();

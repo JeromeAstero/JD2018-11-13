@@ -16,7 +16,7 @@ public class TaskA {
         JAXBContext jc = JAXBContext.newInstance(Users.class);
 
         Unmarshaller unmarshaller = jc.createUnmarshaller();
-        Users users = (Users) unmarshaller.unmarshal(new FileReader("src/by/it/baidak/jd02_07/users+xsd.xml"));
+        Users users = (Users) unmarshaller.unmarshal(new FileReader("src/by/it/baidak/jd02_07_xml_xsd_dtd/users+xsd.xml"));
 
         Marshaller marshaller = jc.createMarshaller();
         marshaller.marshal(users, new FileOutputStream("src/by/it/baidak/jd02_09/fromJD07.xml"));

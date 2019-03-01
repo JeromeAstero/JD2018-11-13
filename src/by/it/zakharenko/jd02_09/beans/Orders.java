@@ -25,7 +25,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="order" type="{D:\JD2018-11-13\src\by\it\zakharenko\jd02_07\clients.xml}Order" maxOccurs="unbounded" minOccurs="0"/>
+ *         &lt;element name="order" type="{D:\JD2018-11-13\src\by\it\zakharenko\jd02_07_xml_xsd_dtd\clients.xml}Order" maxOccurs="unbounded" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>

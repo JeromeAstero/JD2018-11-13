@@ -14,16 +14,16 @@ public class BarValidator {
     public static void main(String[] args) {
         String myDir = System.getProperty("user.dir");
 
-        File xsd = new File(myDir + "/src/by/it/seroglazov/jd02_07/ingredients/ingredients.xsd");
-        File xml = new File(myDir + "/src/by/it/seroglazov/jd02_07/ingredients/ingredients+xsd.xml");
+        File xsd = new File(myDir + "/src/by/it/seroglazov/jd02_07_xml_xsd_dtd/ingredients/ingredients.xsd");
+        File xml = new File(myDir + "/src/by/it/seroglazov/jd02_07_xml_xsd_dtd/ingredients/ingredients+xsd.xml");
         MyValidator(xsd, xml);
 
-        xsd = new File(myDir + "/src/by/it/seroglazov/jd02_07/recipes/recipes.xsd");
-        xml = new File(myDir + "/src/by/it/seroglazov/jd02_07/recipes/recipes+xsd.xml");
+        xsd = new File(myDir + "/src/by/it/seroglazov/jd02_07_xml_xsd_dtd/recipes/recipes.xsd");
+        xml = new File(myDir + "/src/by/it/seroglazov/jd02_07_xml_xsd_dtd/recipes/recipes+xsd.xml");
         MyValidator(xsd, xml);
 
-        xsd = new File(myDir + "/src/by/it/seroglazov/jd02_07/users/users.xsd");
-        xml = new File(myDir + "/src/by/it/seroglazov/jd02_07/users/users+xsd.xml");
+        xsd = new File(myDir + "/src/by/it/seroglazov/jd02_07_xml_xsd_dtd/users/users.xsd");
+        xml = new File(myDir + "/src/by/it/seroglazov/jd02_07_xml_xsd_dtd/users/users+xsd.xml");
         MyValidator(xsd, xml);
 
     }

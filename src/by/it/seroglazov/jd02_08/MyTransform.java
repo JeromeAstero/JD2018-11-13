@@ -11,7 +11,7 @@ import java.io.File;
 public class MyTransform {
     //private final static String root="src/by/it/_examples_/jd02_08/";
     public static void main(String[] args) {
-        String parentDir = System.getProperty("user.dir") + "/src/by/it/seroglazov/jd02_07/";
+        String parentDir = System.getProperty("user.dir") + "/src/by/it/seroglazov/jd02_07_xml_xsd_dtd/";
         String parentDir2 = System.getProperty("user.dir") + "/src/by/it/seroglazov/jd02_08/";
 
         String ingredientsXML = parentDir + "ingredients/ingredients.xml";

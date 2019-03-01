@@ -8,7 +8,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class StaxRunner {
-    static String xml = System.getProperty("user.dir") + "/src/by/it/naumenko/jd02_07/cakes/cakes+xsd.xml";
+    static String xml = System.getProperty("user.dir") + "/src/by/it/naumenko/jd02_07_xml_xsd_dtd/cakes/cakes+xsd.xml";
 
     public static void main(String[] args) {
         String tab="";

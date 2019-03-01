@@ -13,7 +13,7 @@ import java.io.IOException;
 
 public class DOMRunner {
     public static void main(String[] args) {
-        String file = System.getProperty("user.dir") + "/src/by/it/kruglenja/jd02_07/spareparts/spareparts.xml";
+        String file = System.getProperty("user.dir") + "/src/by/it/kruglenja/jd02_07_xml_xsd_dtd/spareparts/spareparts.xml";
         DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = builderFactory.newDocumentBuilder();

@@ -3,8 +3,8 @@ package by.it.zhivov.jd02_08;
 import java.util.Scanner;
 
 public class Runner {
-    private final static String root = "src/by/it/zhivov/jd02_07/";
-    private static String fileXML_xsd = System.getProperty("user.dir") + "/src/by/it/zhivov/jd02_07/person+xsd.xml";
+    private final static String root = "src/by/it/zhivov/jd02_07_xml_xsd_dtd/";
+    private static String fileXML_xsd = System.getProperty("user.dir") + "/src/by/it/zhivov/jd02_07_xml_xsd_dtd/person+xsd.xml";
     private static String pureXML =root+"person.xml";
     private static String fileHTML = root+"person.html";
     private static String fileXSL=root+"person.xsl";

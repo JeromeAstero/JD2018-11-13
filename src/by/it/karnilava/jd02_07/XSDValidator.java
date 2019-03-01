@@ -15,8 +15,8 @@ public class XSDValidator {
     public static void main(String[] args) {
         String language = XMLConstants.W3C_XML_SCHEMA_NS_URI;
         String src = System.getProperty("user.dir") + "/src/by/it/karnilava/";
-        String filename = src + "jd02_07\\bankClients.xsd.xml";
-        String schemaPath = src + "jd02_07\\bankClients.xsd";
+        String filename = src + "jd02_07_xml_xsd_dtd\\bankClients.xsd.xml";
+        String schemaPath = src + "jd02_07_xml_xsd_dtd\\bankClients.xsd";
         SchemaFactory factory = SchemaFactory.newInstance(language);
         File schemaLocation = new File(schemaPath);
         try {

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persons xmlns:def="http://www.w3.org/2001/XMLSchema-instance"
          xmlns="http://beans.jd02_09.zhivov.it.by/"
-         def:schemaLocation="http://beans.jd02_09.zhivov.it.by/ person.xsd"
->
+         def:schemaLocation="http://beans.jd02_09.zhivov.it.by/ person.xsd">
     <user>
         <name>Zhivov Anton Dmitrievich</name>
         <login>Jerome</login>

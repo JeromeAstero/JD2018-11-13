@@ -7,7 +7,7 @@ import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
 public class XSL {
-    private static String cat = System.getProperty("user.dir") + "/src/by/it/kruglenja/jd02_07/spareparts/";
+    private static String cat = System.getProperty("user.dir") + "/src/by/it/kruglenja/jd02_07_xml_xsd_dtd/spareparts/";
 
     public static void main(String[] args) {
         String xmlFile = cat + "spareparts.xml";

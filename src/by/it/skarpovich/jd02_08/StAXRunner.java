@@ -12,7 +12,7 @@ import java.io.FileNotFoundException;
 
 public class StAXRunner {
     private static String xml= Util.getPath()+"buyers+xsd.xml";
-    //private static String xml = System.getProperty("user.dir") + "/src/by/it/skarpovich/jd02_07/buyers+xsd.xml";
+    //private static String xml = System.getProperty("user.dir") + "/src/by/it/skarpovich/jd02_07_xml_xsd_dtd/buyers+xsd.xml";
 
     public static void main(String[] args) {
         String tab = "";

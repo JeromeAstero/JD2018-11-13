@@ -9,7 +9,7 @@ import java.io.FileNotFoundException;
 
 public class STAXParser {
 
-    //private static String xml = System.getProperty("user.dir") + "/src/by/it/zhivov/jd02_07/person+xsd.xml";
+    //private static String xml = System.getProperty("user.dir") + "/src/by/it/zhivov/jd02_07_xml_xsd_dtd/person+xsd.xml";
 
     static void staxParser(String xml) {
         System.out.println("start StAX Parse\n");
